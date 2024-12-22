@@ -3,5 +3,12 @@
 version = 3
 
 [[package]]
+name = "rustylib"
+version = "0.1.0"
+
+[[package]]
 name = "tvs"
 version = "0.1.0"
+dependencies = [
+ "rustylib",
+]

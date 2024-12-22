@@ -1,5 +1,5 @@
 [workspace]
-members = ["tvs"]
+members = [ "rustylib","tvs"]
 resolver = "2"
 
 [profile.release]

@@ -1,11 +1,9 @@
-mod utils;
-
+use rustylib::{colored, filter_path_w_ext};
 use std::collections::HashMap;
 use std::env;
 use std::fs::rename;
 use std::io::{self, Write};
 use std::process::exit;
-use utils::{colored, filter_path_w_ext};
 
 fn main() {
     // Parse commandline arguments

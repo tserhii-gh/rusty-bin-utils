@@ -1,5 +1,3 @@
-#![allow(dead_code)]
-
 /// List directory [files only] and filter them with list of extentions
 pub fn filter_path_w_ext(dir: &str, exts: &[&str]) -> Vec<String> {
     std::fs::read_dir(dir)
